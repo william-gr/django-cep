@@ -30,7 +30,7 @@ Currently the only syntax supported is setting the IDs of the address fields in 
 
 2. Set your CEP field for using the CEPInput, with the correct address fields ID, for example::
 
-    my_cep_field = MyCEPField(label=u"CEP", help_text="Format: XXXXX-XXX", required=False, widget=CEPInput(address={'street': 'id_street_field', 'district': 'id_district_field', 'city': 'id_city_field', 'state': 'id_state_field'}, attrs={'class': 'zip-field'}))
+    my_cep_field = MyCEPField(label=u"CEP", help_text="Format: XXXXX-XXX", required=False, widget=CEPInput(address={'street': 'id_street_field', 'district': 'id_district_field', 'city': 'id_city_field', 'state': 'id_state_field'}))
 
  That stands for a street field ID equals id_street_field, district field ID equals id_district_field, city field ID equals id_city_field and a state field ID equals id_state_field. 
 
