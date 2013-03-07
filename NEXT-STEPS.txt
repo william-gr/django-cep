@@ -1,3 +1,4 @@
 -Add suport for multiple sintaxes - make possible to pass the forms field instead of the id
 -Add suport for multiple addresses in the same form
 -Add tests
+-New JQuery way for doing AJAX
