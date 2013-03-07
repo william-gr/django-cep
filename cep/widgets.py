@@ -9,13 +9,8 @@ class CEPInput(TextInput):
         super(CEPInput, self).__init__(*args, **kwargs)
 
     def render(self, name, value, attrs):
-        # define input class based on user definition of attrs
-        try:
-            self.attrs['class']
-        except KeyError:
-            self.attrs['class'] = "zip-field"
-        else:
-            self.attrs['class'] = "zip-field %s" % self.attrs['class']
+        # define input class based on user definition of attrs. rstrip takes spaces in the end of the string.
+        self.attrs['class'] = ('zip-field %s' % self.attrs.get('class', '')).rstrip()
         output = super(CEPInput, self).render(name, value, attrs)
         # insert address json in the rendering
         if self.address is not None:
