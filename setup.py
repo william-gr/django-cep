@@ -6,11 +6,11 @@ try:
 except ImportError:
     from distutils.core import setup
 
-from cep import __version__
-
 setup(
     name='django-cep',
-    version=__version__,
+    version='1.0.1',
+    maintainer='Thiago Carvalho D Avila',
+    maintainer_email='thiagocavila@gmail.com',
     packages=['cep'],
     scripts=[],
     url='https://github.com/staticdev/django-cep',
