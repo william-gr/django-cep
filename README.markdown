@@ -6,7 +6,7 @@ Installation
 ------------
 To install ``django-cep`` simply run::
 
-    pip install -e git://github.com/staticdev/django-cep.git#egg=django-cep
+    pip install django-cep
 
 Configuration
 -------------
