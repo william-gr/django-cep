@@ -8,7 +8,7 @@ except ImportError:
 
 setup(
     name='django-cep',
-    version='1.0.3',
+    version='1.0.4',
     maintainer='Thiago Carvalho D Avila',
     maintainer_email='thiagocavila@gmail.com',
     packages=find_packages(),
