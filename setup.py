@@ -2,16 +2,16 @@
 
 from os.path import exists
 try:
-    from setuptools import setup
+    from setuptools import setup, find_packages
 except ImportError:
-    from distutils.core import setup
+    from distutils.core import setup, find_packages
 
 setup(
     name='django-cep',
     version='1.0.3',
     maintainer='Thiago Carvalho D Avila',
     maintainer_email='thiagocavila@gmail.com',
-    packages=['cep'],
+    packages=find_packages(),
     scripts=[],
     url='https://github.com/staticdev/django-cep',
     license='LICENSE',
