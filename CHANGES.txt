@@ -1,7 +1,13 @@
 Change-log for django-cep.
 
-Version 1.0.6-2 (2013/27/03)
+Version 1.0.7 (2013/06/04)
+==========================
+
+Fixed imports on urls.py to work without warnings and being backwards compatible to older versions.
+
+
+Version 1.0.6 (2013/27/03)
 ==========================
 
 Fixed an issue on packaging sub-folders.
-Better classifiers and version handling in setup.py
+Better classifiers and version handling in setup.py.
