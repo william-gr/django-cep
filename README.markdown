@@ -22,7 +22,7 @@ Put ``cep`` into your ``INSTALLED_APPS`` at settings module::
 
 Bind the ``cep`` urls.py into your ``main urls.py`` with something like:
     
-      ``url(r'^cep/', include('cep.urls')),``
+      url(r'^cep/', include('cep.urls')),
 
 Usage
 -----
