@@ -5,7 +5,7 @@ $(document).ready(function(){
         var regex = /^([0-9]{5})[-. ]?([0-9]{3})$/;
         if (regex.test($(".zip-field").val()))
         {
-            $.get('/address/'+$(".zip-field").val()+'/', function(data,status)
+            $.get('/cep/'+$(".zip-field").val()+'/', function(data,status)
             {
                 eval("var arr = "+data);
                 $("#"+address.street).val(arr.street);
