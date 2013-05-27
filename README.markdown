@@ -20,6 +20,10 @@ Put ``cep`` into your ``INSTALLED_APPS`` at settings module::
          'cep',
       )
 
+Bind the ``cep`` urls.py into your ``main urls.py`` with something like:
+    
+      ``url(r'^cep/', include('cep.urls')),``
+
 Usage
 -----
 Currently the only syntax supported is setting the IDs of the address fields in the widget of the CEP field. For other ways to set this up, see the NEXT-STEPS file.
