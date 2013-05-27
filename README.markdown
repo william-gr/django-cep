@@ -41,4 +41,4 @@ II. Set your CEP field for using the CEPInput, with the correct address fields I
 
  That stands for a street field ID equals id_street_field, district field ID equals id_district_field, city field ID equals id_city_field and a state field ID equals id_state_field. 
 
- It is highly recommended that you use [Django localflavor's] [https://github.com/django/django-localflavor-br/blob/master/django_localflavor_br/forms.py] BRStateChoiceField for the State field, to make it render the correct brazilian state from the list.
+ It is highly recommended that you use [Django localflavor's] (https://github.com/django/django-localflavor-br) BRStateChoiceField for the State field, to make it render the correct brazilian state from the list.
