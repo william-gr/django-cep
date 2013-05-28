@@ -19,4 +19,4 @@ class CEPInput(TextInput):
         return mark_safe(output)
 
     class Media:
-        js = ('js/cep.js',)
+        js = ('cep/js/cep.js',)
