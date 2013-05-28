@@ -19,7 +19,7 @@ setup(
     url='https://github.com/staticdev/django-cep',
     license='LICENSE',
     description='Address fields autofill app for forms using brazilian CEP field.',
-    long_description=open('README.markdown').read() if exists("README.markdown") else "",
+    long_description=read('README.rst'),
     classifiers=[
         "Environment :: Web Environment",
         "Framework :: Django",
