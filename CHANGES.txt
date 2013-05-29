@@ -1,5 +1,11 @@
 Change-log for django-cep.
 
+Version 1.0.8 (2013/28/05)
+==========================
+
+Lots of improvements on the documentation, a fix in the static structure and in the url of the cep service.
+
+
 Version 1.0.7 (2013/06/04)
 ==========================
 
