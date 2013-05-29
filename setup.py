@@ -2,11 +2,18 @@
 
 import cep
 
-from os.path import exists
+import os
+import codecs
 try:
     from setuptools import setup, find_packages
 except ImportError:
     from distutils.core import setup, find_packages
+
+
+def read(*parts):
+    filename = os.path.join(os.path.dirname(__file__), *parts)
+    with codecs.open(filename, encoding='utf-8') as fp:
+        return fp.read()
 
 setup(
     name='django-cep',
