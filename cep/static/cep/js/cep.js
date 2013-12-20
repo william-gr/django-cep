@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $(".zip-field").blur(function(){
+    $(document).on("change", ".zip-field", function() {
         var arr;
         // validates CEP
         var regex = /^([0-9]{5})[-. ]?([0-9]{3})$/;
