@@ -15,4 +15,4 @@ def addressGet(request, zipcode):
     url = "http://viacep.com.br/ws/%s/json/" % zipcode
     page = urllib2.urlopen(url)
     data = json.loads(page.read())
-    return HttpResponse('{"street":"%s","district":"%s","city":"%s","state":"%s"}' % (data["logradouro"], data["bairro"], data["cidade"], data["uf"]))
+    return HttpResponse('{"street":"%s","district":"%s","city":"%s","state":"%s"}' % (data["logradouro"], data["bairro"], data["localidade"], data["uf"]))
